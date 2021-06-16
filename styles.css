@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #242424;
+    color: aliceblue;
+}
+
+.main {
+    text-align: center;
+    margin: 0 auto;  
+}
+
+h1 {
+    font-family: 'Days One', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Days One', sans-serif;
+}
+
+.brand-text {
+    font-size: 1.8rem;
+}
+
+.title {
+    font-size: 4rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-element {
+    margin: 0 auto;
+    padding: 15px
+}
+
+.image-box {
+    display: ;
+    background-color: whitesmoke;
+    border-width: 10px;
+    border-style: solid;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 800px;
+}
+
+.image-box img {
+    border-radius: 8px;
+    width: 100%;
+    
+}
+
+.image-element p {
+    background-color: whitesmoke;
+    color: #242424;
+    padding: 5px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 2rem;
+}
+
+.navbar-brand img {
+    vertical-align: sub;
+}
+
+.contact a, .nav-link {
+    color: #979ca0;
+    text-decoration: none;
+}
+
+.contact a:hover, .nav-link:hover {
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 990px) {
+    .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .navbar-brand img {
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 2vw;
+    }
+    .brand-text {
+        font-size: 2rem;
+    }
+    .nav-link {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
