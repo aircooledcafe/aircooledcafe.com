@@ -55,7 +55,7 @@ p {
 .image-box img {
     border-radius: 8px;
     width: 100%;
-    
+    text-align: center;    
 }
 
 .image-element p {
