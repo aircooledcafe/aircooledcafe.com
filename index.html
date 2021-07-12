@@ -19,8 +19,8 @@
     <title>AirCooledCafe</title>
   </head>
   <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="overlay hidden"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <img src="./images/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-center"/>
@@ -47,22 +47,30 @@
     </nav>
 
     <div class="main">
-      <h1 class="title">AirCooledCafe</h1>
+      <h1 class="page-heading">AirCooledCafe</h1>
       <div class="image-element">
         <div class="image-box">
-          <img src="./images/hero.jpg" alt="dogs">
-          <p>These are my dogs Amy and Penny</p>
+          <img class="image-web" src="./images/hero-web.jpg" alt="dogs">
+          <p class="image-description">These are my dogs Amy and Penny</p>
         </div>
         <div class="image-box">
-          <img src="./images/penny-hero-web.jpg" alt="peny">
-          <p>This is Penny.</p>
+          <img class="image-web" src="./images/penny-hero-web.jpg" alt="peny">
+          <p class="image-description">This is Penny.</p>
         </div>
         <div class="image-box">
-          <img src="./images/amy-hero-web.jpg" alt="amy">
-          <p>This is Amy</p>
+          <img class="image-web" src="./images/amy-hero-web.jpg" alt="amy">
+          <p class="image-description">This is Amy</p>
         </div>
       </div>
       
+      <div class="hero-image-box hidden">
+        <img class="hero-image"src="" alt="">
+        <p class="hero-description"></p>
+      </div>
+
+      
+
     </div> 
   </body>
+  <script src="./script.js"></script>
 </html>
