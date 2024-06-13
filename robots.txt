@@ -23,3 +23,9 @@ Disallow: /
 # Block [perplexity
 User-agent: PerplexityBot
 Disallow: /
+
+# Block Apple AI
+User-Agent: Applebot
+Disallow: /
+User-Agent: Applebot-Extended
+Disallow: /
